@@ -1,0 +1,95 @@
+/**Oral**/
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #6D787A;
+}
+
+
+/****/
+.line1 {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+}
+
+.line1 img {
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+.line2 {
+    position: absolute;
+    top: 435px;
+    left: 85px;
+}
+
+.line2 img {
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+
+.text-wrapper1 {
+    position: absolute;
+    top: 160px;
+    left: 83px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}
+
+.text-wrapper2 {
+    position: absolute;
+    top: 160px;
+    left: 343px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}
+
+.text-wrapper3 {
+    position: absolute;
+    top: 160px;
+    left: 613px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}
+
+.text-wrapper4 {
+    position: absolute;
+    top: 160px;
+    left: 878px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}
+
+.text-wrapper5 {
+    position: absolute;
+    top: 40px;
+    left: 192px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}
+
+.text-wrapper6 {
+    position: absolute;
+    top: 40px;
+    left: 730px;
+    color: #5D4539;
+    font-family: 'mistrully', cursive;
+}

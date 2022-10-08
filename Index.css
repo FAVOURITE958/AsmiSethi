@@ -1,0 +1,265 @@
+/**Oral**/
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+/**Header**/
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header,
+header:before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: url(Images/MainParallax.png);
+    background-size: 100%;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+
+/**Body Elements**/
+.container {
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    background-color: #EBF0F4;
+    width: 100%;
+}
+
+
+/**Quote**/
+.quote {
+    color: #22263E;
+    font-family: 'roboto', cursive;
+}
+
+.left {
+    text-align: right;
+    color: #22263E;
+    margin-right: 200px;
+    font-family: "roboto", cursive;
+    font-size: 25px;
+}
+
+
+
+/**Main Body**/
+/**common**/
+.divisions {
+    background-color: White;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 515px;
+}
+
+.lines {
+    height: 2px;
+    background-color: black;
+    border-radius: 10px;
+    width: 88%;
+    margin-bottom: 0px;
+}
+
+.link a {
+    color: #22263E;
+    text-decoration: none;
+}
+
+
+
+/**Right Body**/
+.rightimage img {
+    border-radius: 20px;
+    position: absolute;
+    left: 800px;
+}
+
+.headlinesr {
+    color: #22263E;
+    font-family: "mistrully", cursive;
+    font-size: 65px;
+    position: absolute;
+    left: 345px;
+}
+
+.contentr {
+    font-family: "schoolbell", cursive;
+    color: #6F899B;
+    font-size: 18px;
+    position: absolute;
+    left: 160px;
+    width: 47%;
+}
+
+
+
+/**Left Body**/
+.leftimage img {
+    border-radius: 20px;
+    position: absolute;
+    left: 190px;
+}
+
+.headlinesl {
+    color: #22263E;
+    font-family: "mistrully", cursive;
+    font-size: 65px;
+    position: absolute;
+}
+
+.contentl {
+    font-family: "schoolbell", cursive;
+    color: #6F899B;
+    font-size: 18px;
+    position: absolute;
+    left: 500px;
+    width: 47%;
+}
+
+
+
+/**positioning**/
+.r1h {
+    top: 9.9%;
+}
+
+.r1c {
+    top: 12%;
+}
+
+.l1h {
+    top: 1280px;
+    left: 630px;
+}
+
+.l1c {
+    top: 1400px;
+}
+
+.r2h {
+    top: 1970px;
+}
+
+.r2c {
+    top: 2100px;
+}
+
+.l2h {
+    top: 2665px;
+    left: 660px;
+}
+
+.l2c {
+    top: 2800px;
+}
+
+.r3h {
+    top: 3360px;
+}
+
+.r3c {
+    top: 3485px;
+}
+
+.l3h {
+    top: 4050px;
+    left: 720px;
+}
+
+.l3c {
+    top: 4190px;
+    left: 570px;
+    width: 500px;
+}
+
+.r4h{
+    top: 4745px;
+}
+
+.r4c{
+    top: 4900px;
+}
+
+
+
+/**Footer**/
+.parallax {
+    background-color: #6F899B;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerlist a {
+    text-decoration: none;
+    font-family: "schoolbell", cursive;
+    font-size: 35px;
+    color: white;
+    padding-right: 30px;
+}
+
+.intouch a {
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #22263E;
+    font-size: 120px;
+}
+
+.sociallinks a {
+    padding-right: 10px;
+    color: #CFDDE1;
+    text-decoration: none;
+}
+
+
+
+
+
